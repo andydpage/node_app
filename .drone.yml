@@ -1,0 +1,10 @@
+---
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: build_node_app
+  image: node:12
+  commands:
+  - sleep 1
